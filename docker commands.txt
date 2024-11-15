@@ -1,0 +1,2 @@
+docker build -t assignment1 . (build the image)
+docker run -it --name assignment assignment1 (creates and starts a container named assignment from the assignment1 image)
